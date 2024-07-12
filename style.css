@@ -260,49 +260,71 @@ nav ul li a:hover::after {
     display: block;
 }
 
-/* ----------------services------------- */
-#services {
-    padding: 30px 0;
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-
-.services-list div {
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-
-.services-list div i {
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-.services-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.services-list div a {
-    text-decoration: none;
+/* ----------------EXPERIENCE------------- */
+#experience {
+    padding: 70px 0;
     color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
 }
 
-.services-list div:hover {
+.header-text h2 {
+    color: #fff;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.experience-container {
+    display: flex;
+}
+
+.exp-tab-titles {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.exp-tab-links {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.exp-tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
     background: #ff004f;
-    transform: translateY(-10px);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.exp-tab-links.active-link::after {
+    width: 100%;
+}
+
+.exp-tab-contents-container {
+    flex: 1;
+}
+
+.exp-tab-contents {
+    display: none;
+    line-height: 1.6;
+}
+
+.exp-tab-contents.active-tab {
+    display: block;
+}
+
+.exp-tab-contents h2 {
+    color: #ff004f;
+    margin-bottom: 20px;
 }
 
 /* -------portfolio----------- */
