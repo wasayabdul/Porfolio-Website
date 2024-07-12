@@ -183,16 +183,17 @@ nav ul li a:hover::after {
     flex-wrap: wrap;
 }
 
-.about-col-1 {
+.about-col-2 {
     flex-basis: 35%;
+    margin-top: 60px;
 }
 
-.about-col-1 img {
+.about-col-2 img {
     width: 100%;
     border-radius: 15px;
 }
 
-.about-col-2 {
+.about-col-1 {
     flex-basis: 60%;
 }
 
@@ -202,9 +203,19 @@ nav ul li a:hover::after {
     color: #fff;
 }
 
+.intro {
+    line-height: 1.5;
+}
+
+.intro span {
+    color: #ff004f;
+    font-weight: bold;
+    font-size: 17px;
+}
+
 .tab-titles {
     display: flex;
-    margin: 20px 0 40px;
+    margin: 20px 0 30px;
 }
 
 .tab-links {
@@ -212,7 +223,7 @@ nav ul li a:hover::after {
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    position: relative;
+    position: relative
 }
 
 .tab-links::after {
@@ -227,17 +238,18 @@ nav ul li a:hover::after {
 }
 
 .tab-links.active-link::after {
-    width: 50%;
+    width: 100%;
 }
 
 .tab-contents ul li {
     list-style: none;
-    margin: 10px 0;
+    margin: 20px;
+    margin-left: -40px;
 }
 
 .tab-contents ul li span {
-    color: #b54769;
-    font-size: 14px;
+    color: #ff004f;
+    font-size: 16px;
 }
 
 .tab-contents {
