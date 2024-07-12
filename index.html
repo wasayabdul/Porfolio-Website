@@ -241,9 +241,9 @@
     </div>
 
 
+    <!--------------------ABOUT ME SCRIPT------------------------->
 
     <script>
-
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -258,7 +258,30 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
 
+        //--------------------EXPERIENCE SCRIPT-------------------------//
+
+        var expTabLinks = document.getElementsByClassName("exp-tab-links");
+        var expTabContents = document.getElementsByClassName("exp-tab-contents");
+
+        function openExpTab(tabName) {
+            for (var expTabLink of expTabLinks) {
+                expTabLink.classList.remove("active-link");
+            }
+            for (var expTabContent of expTabContents) {
+                expTabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
     </script>
+
+
+
+
+
+
+
 
     <script>
 
