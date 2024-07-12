@@ -59,6 +59,7 @@ nav ul li a::after {
     left: 0;
     bottom: -6px;
     transition: 0.5s;
+
 }
 
 nav ul li a:hover::after {
@@ -71,9 +72,10 @@ nav ul li a:hover::after {
     line-height: 1.6;
 }
 
+
 .header-text h1 {
     font-size: 70px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header-text h1 span {
