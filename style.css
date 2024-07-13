@@ -123,6 +123,12 @@ nav ul li a:hover::after {
 .icon {
     cursor: pointer;
     height: 2rem;
+    transition: transform 0.5s;
+}
+
+.icon:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
 }
 
 #socials-container {
@@ -435,12 +441,24 @@ nav ul li a:hover::after {
     flex-basis: 35%;
 }
 
+.sub-title {
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+
+
+.contact-left span {
+    color: #ff004f;
+    font-size: larger;
+    font-weight: 600;
+}
+
 .contact-right {
     flex-basis: 60%;
 }
 
 .contact-left p {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .contact-left p i {
@@ -500,7 +518,7 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #080808;
     font-weight: 300;
     margin-top: 20px;
 }
