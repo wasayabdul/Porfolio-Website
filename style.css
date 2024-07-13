@@ -269,10 +269,6 @@ nav ul li a:hover::after {
     color: #fff;
 }
 
-.header-text h2 {
-    color: #fff;
-}
-
 .sub-title {
     font-size: 60px;
     font-weight: 600;
@@ -318,7 +314,7 @@ nav ul li a:hover::after {
 
 .exp-tab-contents {
     display: none;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .exp-tab-contents.active-tab {
@@ -327,6 +323,23 @@ nav ul li a:hover::after {
 
 .exp-tab-contents h2 {
     color: #ff004f;
+    margin-bottom: 20px;
+}
+
+.exp-tab-contents h2 span {
+    color: #fff;
+    font-size: larger;
+}
+
+.exp-tab-contents h3 {
+    color: #ff004f;
+}
+
+.exp-tab-contents active-tab ul li {
+    margin-bottom: 20px;
+}
+
+.exp-tab-contents ul li {
     margin-bottom: 20px;
 }
 
