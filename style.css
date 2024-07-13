@@ -79,7 +79,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #fff;
+    color: #ff004f;
 }
 
 .header-text h2 span {
@@ -127,7 +127,7 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: left;
     margin-top: 1.5rem;
-    margin-left: 10px;
+    margin-left: 20px;
     gap: 1rem;
 }
 
