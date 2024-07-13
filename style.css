@@ -28,6 +28,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
@@ -343,7 +344,7 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
 }
 
-/* -------portfolio----------- */
+/* -------PROJECTS----------- */
 #portfolio {
     padding: 50px 0;
 }
@@ -429,7 +430,7 @@ nav ul li a:hover::after {
     background: #ff004f;
 }
 
-/* ---------contact-------- */
+/* ---------CONTACT ME-------- */
 .contact-left {
     flex-basis: 35%;
 }
