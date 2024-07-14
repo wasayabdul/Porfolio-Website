@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #080808;
     color: #fff;
@@ -467,27 +471,18 @@ nav ul li a:hover::after {
     font-size: 25px;
 }
 
-.social-icons {
-    margin-top: 30px;
-}
-
-.social-icons a {
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-
-.social-icons a:hover {
-    color: #ff004f;
-    transform: translateY(-5px);
-}
 
 .btn.btn2 {
     display: inline-block;
     background: #ff004f;
+    color: #080808;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn.btn2:hover {
+    cursor: pointer;
+    background-color: #fff;
 }
 
 .contact-right form {
