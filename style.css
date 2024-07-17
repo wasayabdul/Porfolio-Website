@@ -624,12 +624,24 @@ nav .fas {
         margin-bottom: 40px;
     }
 
+    .sub-title-two {
+        text-align: center;
+    }
+
+    .contact-left {
+        text-align: center;
+    }
+
+    .contact-right {
+        text-align: center;
+    }
+
     .intro {
         text-align: center;
     }
 
     .tab-titles {
-        margin-left: 20px;
+        align-items: center;
     }
 
     .about-col-1,
@@ -672,17 +684,6 @@ nav .fas {
     }
 
 }
-
-/*.section_pic-container {
-        
-    }
-
-
-
-
-
-    */
-
 
 #msg {
     color: #61b752;
