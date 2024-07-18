@@ -252,6 +252,7 @@ nav ul li a:hover::after {
         justify-content: center;
         margin-left: 0;
         gap: 1.5rem;
+        margin-bottom: -40px;
     }
 
     .section_pic-container {
@@ -260,7 +261,7 @@ nav ul li a:hover::after {
         margin: 20px auto;
         float: none;
         box-shadow: 0 0 10px 5px #ff004f;
-        margin-bottom: -260px;
+        margin-bottom: -240px;
     }
 }
 
@@ -661,55 +662,6 @@ nav .fas {
 }
 
 @media only screen and (max-width: 1000px) {
-    /*
-    .logo {
-        font-size: 1.75rem;
-        color: #ff004f;
-        font-weight: bold;
-        margin-top: 20px;
-        margin-left: 45px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .header-text h1 {
-        font-size: 32px;
-        font-weight: bold;
-        text-align: center;
-        margin-left: 10px;
-    }
-
-    .header-text p {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .section_pic-container {
-        height: 170px;
-        width: 170px;
-        margin-top: 60px;
-    }
-
-    .btn-color-1 {
-        width: auto;
-        padding: 0.5rem 1rem;
-        margin-left: 20px;
-    }
-
-    #socials-container {
-        flex-direction: row;
-        justify-content: center;
-        gap: 1.5rem;
-        margin-left: 5px;
-    }
-    */
 
     .header-text {
         margin-top: 100%;
