@@ -14,10 +14,20 @@ body {
     color: #fff;
 }
 
+canvas#Matrix {
+    position: fixed;
+    /* Ensures canvas covers entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Places canvas behind all other content */
+}
+
 #header {
     width: 100%;
     height: 100vh;
-    background-color: #080808;
     background-size: cover;
     background-position: center;
 }
@@ -642,7 +652,6 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #080808;
     font-weight: 300;
     margin-top: 20px;
 }
