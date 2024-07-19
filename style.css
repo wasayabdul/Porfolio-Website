@@ -226,7 +226,7 @@ nav ul li a:hover::after {
     }
 
     * .header-text h1 {
-        font-size: 31px;
+        font-size: 28px;
         font-weight: bold;
         text-align: center;
         margin-left: 10px;
@@ -261,7 +261,7 @@ nav ul li a:hover::after {
         margin: 20px auto;
         float: none;
         box-shadow: 0 0 10px 5px #ff004f;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
 }
 
