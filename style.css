@@ -661,7 +661,7 @@ nav .fas {
     display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
 
     /*.header-text {
         margin-top: 100%;
@@ -704,6 +704,7 @@ nav .fas {
 
     .about-col-1 {
         margin-bottom: -40px;
+        margin-left: -5px;
     }
 
     .about-col-2 {

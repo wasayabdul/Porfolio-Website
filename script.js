@@ -1,4 +1,4 @@
-//--------------------Heading Cursor Blinking-------------------------//
+//--------------------TITLE CURSOR ANIMATION-------------------------//
 
 const text = "hi, Wasay here!";
 let index = 0;
@@ -14,5 +14,6 @@ function type() {
 }
 
 document.addEventListener("DOMContentLoaded", type);
+
 
 
