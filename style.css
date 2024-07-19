@@ -261,7 +261,7 @@ nav ul li a:hover::after {
         margin: 20px auto;
         float: none;
         box-shadow: 0 0 10px 5px #ff004f;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 }
 
