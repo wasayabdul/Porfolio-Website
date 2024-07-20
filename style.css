@@ -42,7 +42,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    justify-content: left;
     flex-wrap: wrap;
 }
 
@@ -50,6 +49,7 @@ nav {
     font-size: 1.75rem;
     color: #ff004f;
     font-weight: bold;
+    text-align: left;
 }
 
 nav ul li {
@@ -85,12 +85,13 @@ nav ul li a:hover::after {
     margin-top: 10%;
     font-size: 30px;
     line-height: 1.6;
+    text-align: center;
 }
-
 
 .header-text h1 {
     font-size: 70px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .header-text h1 span {
@@ -108,51 +109,7 @@ nav ul li a:hover::after {
     animation: blink 1s infinite;
 }
 
-.btn-container {
-    display: flex;
-    justify-content: left;
-    gap: 1rem;
-}
-
-.btn-color-1 {
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 300ms ease;
-    padding: 1rem;
-    width: 20rem;
-    border-radius: 0.5rem;
-    margin-bottom: 10px;
-}
-
-.btn-color-1 {
-    border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover {
-    cursor: pointer;
-    background-color: #ff004f;
-}
-
-
-.icon {
-    cursor: pointer;
-    height: 2rem;
-    transition: transform 0.5s;
-}
-
-.icon:hover {
-    color: #ff004f;
-    transform: translateY(-5px);
-}
-
-#socials-container {
-    display: flex;
-    justify-content: left;
-    margin-top: 1.5rem;
-    margin-left: 10px;
-    gap: 1rem;
-}
-
+/* ------------- PFP On Home Page ----------------->
 .section_pic-container {
     display: flex;
     height: 400px;
@@ -180,6 +137,46 @@ nav ul li a:hover::after {
 
 .section_pic-container:hover img {
     filter: brightness(1.1) contrast(1);
+}*/
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn-color-1 {
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.btn-color-1:hover {
+    cursor: pointer;
+    background-color: #ff004f;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    transition: transform 0.5s;
+}
+
+.icon:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-left: 10px;
+    gap: 1rem;
 }
 
 @keyframes blink {
@@ -265,6 +262,8 @@ nav ul li a:hover::after {
         margin-bottom: -40px;
     }
 
+
+    /*  ------------- PFP On Home Page ----------------->
     .section_pic-container {
         height: 200px;
         width: 200px;
@@ -272,7 +271,7 @@ nav ul li a:hover::after {
         float: none;
         box-shadow: 0 0 10px 5px #ff004f;
         margin-bottom: 20px;
-    }
+    }*/
 }
 
 
